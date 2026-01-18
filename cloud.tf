@@ -1,10 +1,10 @@
-terraform { 
-  cloud { 
-    
-    organization = "Inchara-B12" 
+terraform {
+  cloud {
 
-    workspaces { 
-      name = "rg-res" 
-    } 
-  } 
+    organization = "Inchara-B12"
+
+    workspaces {
+      name = "rg-res"
+    }
+  }
 }
